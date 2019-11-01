@@ -42,7 +42,7 @@ if __name__ == '__main__':
     do_blocking = True
     scoreLst = []
 
-    datast = Dataset('D:/Upasana/Internship/ZyLAB/SVM_Data/Test2ForSVM.csv')
+    datast = Dataset('Test.csv')
     dataPro = DataPreProcess().Preprocess(datast.data)
 
     # calculate tf idf
